@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up | Cinema</title>
+    <link rel="stylesheet" href="auth.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Create Account</h1>
+      <form id="signupForm" onsubmit="return MINH(event)">
+        <input type="text" id="user" placeholder="Full Name" required />
+        <input type="email" id="mail" placeholder="Email Address" required />
+        <input type="password" id="pass" placeholder="Password" required />
+        <input
+          type="password"
+          id="confirmpass"
+          placeholder="Confirm Password"
+          required
+        />
+        <button type="submit">Sign Up</button>
+      </form>
+      <p id="thongbao"></p>
+
+      <p>Already have an account? <a href="login.html">Log in here</a></p>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
+
