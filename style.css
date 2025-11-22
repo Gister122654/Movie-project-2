@@ -23,14 +23,32 @@ header {
   z-index: 1000;
 }
 
-.logo {
-  font-size: 1.8rem;
-  font-weight: 600;
-  color: #ff4444;
-  height: 50px; /* Thiết lập chiều cao mong muốn */
-    width: auto; /* Giữ nguyên tỷ lệ khung hình */
-    object-fit: contain;
+/* Header container */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0d0d0d;        /* Cinematic dark theme */
+  padding: 15px 40px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
+
+/* LOGO IMAGE */
+
+
+/* CINEMA TEXT LOGO */
+.logo {
+  font-size: 40px;
+  font-weight: 700;
+  color: #e50914;                /* Netflix-style red */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+  text-shadow: 0 0 10px rgba(229, 9, 20, 0.7);
+}
+
+
+
 
 .search-bar {
   display: flex;

@@ -14,7 +14,7 @@ function MINH(event) {
 
   //kiem tra basic
   if (!username || !password || !confirmPassword) {
-    hienThiThongBao(`Please put on the details!`);
+    hienThiThongBao(`Missing details, please fill it in!`);
     return;
   }
 
